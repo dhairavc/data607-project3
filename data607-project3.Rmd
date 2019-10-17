@@ -15,7 +15,7 @@ library(tidyverse)
 ```
 
 ```{r}
-wlist <- read.csv('https://raw.githubusercontent.com/dhairavc/DATA607/master/whitelist.csv')
+wlist <- read.csv('https://raw.githubusercontent.com/dhairavc/data607-project3/master/whitelist.csv')
 ```
 
 The extract_words function will take a link to a particular job post and the selector which contains the list of interest and return a dataframe of words in that job post's skills section and the number of occurences of each particular words.
